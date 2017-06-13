@@ -1,0 +1,71 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+}
+.frame{
+	margin: auto;
+	margin-top: 50px;
+	width:450px;
+	background-color: #fff;
+	height: 550px;
+	border-radius: 20px;
+}
+.puzzle{
+	width: 406px;
+	height: 406px;
+	position: relative;
+	margin:auto;
+	margin-top: 10px!important;
+}
+.piece{
+	width: 100px; 
+	height: 100px; 
+	background-image: url(cafe_racer.jpg); 
+	margin: 0; 
+	padding: 0; 
+	position: absolute; 
+	overflow: hidden; 
+	display: block;
+	visibility: inherit;
+}
+.free{
+	width: 100px; 
+	height: 100px; 
+	background-color: #fff;
+	margin: 0; padding: 0; 
+	position: absolute; 
+	overflow: hidden; 
+	display: block;
+	visibility: inherit;
+}
+.puzzle_button{
+	margin: auto;
+	margin-top: 10px;
+	height: 30px;
+	background-color: #000;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+	border-radius: 20px;
+	width:80%;
+	display: block;
+}
+.puzzle_picture{
+	background-image: url(cafe_racer.jpg);
+	display: none;
+	width: 400px;
+	height: 400px;
+}
+.counter{
+	color: #000;
+	display: block;
+	display: none;
+	position: relative;
+	visibility: inherit;
+	margin: auto;
+	width:150px;
+	margin-top: 10px;
+	text-align: center;
+
+}

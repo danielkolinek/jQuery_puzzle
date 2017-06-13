@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Puzzle</title>
+	<link rel="stylesheet" type="text/css" href="puzzle.css">
+	<script src="jquery-3.2.1.js"></script>
+	<script src="puzzle.js"></script>
+</head>
+<body>
+	<div class="frame">
+		<div class="puzzle">
+			<div class="piece" style=" background-position: 0px 0px; left: 0px; top: 0px;" val="0" now="0"></div>
+			<div class="piece" style=" background-position: -100px 0px; left: 102px; top: 0px;" val="1" now="1"></div>
+			<div class="piece" style=" background-position: -200px 0px; left: 204px; top: 0px;" val="2" now="2"></div>
+			<div class="piece" style=" background-position: -300px 0px; left: 306px; top: 0px;" val="3" now="3"></div>
+
+
+			<div class="piece" style=" background-position: 0px -100px; left: 0px; top: 102px;" val="4" now="4"></div>
+			<div class="piece" style=" background-position: -100px -100px; left: 102px; top: 102px;" val="5" now="5"></div>
+			<div class="piece" style=" background-position: -200px -100px; left: 204px; top: 102px;" val="6" now="6"></div>
+			<div class="piece" style=" background-position: -300px -100px; left: 306px; top: 102px;" val="7" now="7"></div>
+
+
+			<div class="piece" style=" background-position: 0px -200px; left: 0px; top: 204px;" val="8" now="8"></div>
+			<div class="piece" style=" background-position: -100px -200px; left: 102px; top: 204px;" val="9" now="9"></div>
+			<div class="piece" style=" background-position: -200px -200px; left: 204px; top: 204px;" val="10" now="10"></div>
+			<div class="piece" style=" background-position: -300px -200px; left: 306px; top: 204px;" val="11" now="11"></div>
+
+
+			<div class="piece" style=" background-position: 0px -300px; left: 0px; top: 306px;" val="12" now="12"></div>
+			<div class="piece" style=" background-position: -100px -300px; left: 102px; top: 306px;" val="13" now="13"></div>
+			<div class="piece" style=" background-position: -200px -300px; left: 204px; top: 306px;" val="14" now="14"></div>
+
+
+			<!-- Picture -->
+			<div class="puzzle_picture"></div>
+		</div>
+		<button class=puzzle_button id="shufle">Zamíchat</button>
+		<button class=puzzle_button id="see">Zobrazit původní obrázek</button>
+		<p id="counter" class="counter">Počet tahů je 0</p>
+		<p id="end" class="counter"></p>
+	</div>
+</body>
+</html>
