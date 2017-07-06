@@ -10,8 +10,6 @@ $(function(){
 	//reshufle pieces by clicking on button
 	$('#shufle').click(function() {
 
-
-
 		//count of numbers in array (val in div with picture)
 		var count = 15;
 		//mix all numbers
